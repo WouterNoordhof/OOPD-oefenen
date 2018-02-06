@@ -1,0 +1,17 @@
+Week 1 - Les 2
+ Opgave Geheugenmodel volgorde
+   E-D-F-A-C-B
+ Opgave Pijl in het geheugenmodel
+  Onderdeel A 
+   Een pijl in het geheigenmodel geeft aan dat de waarde van een bepaalde variabele uit
+   een andere variabele wordt gehaald.
+  Onderdeel B
+   De pijl eindigd bij de variabele waar de waarde uitgehaald wordt, en begint bij de
+   variabele waar de waarde wordt ingestopt
+ Opgave Geheugenmodel van doeKeerTwee
+  Onderdeel A
+   Zie Foto 1
+  Onderdeel B
+   Zie Foto 2
+  Onderdeel C
+   Eigenlijk geen idee, het zijn beide globale variabelen die voor zover ik zie niet veranderen

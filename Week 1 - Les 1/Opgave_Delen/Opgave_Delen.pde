@@ -1,11 +1,11 @@
 //Onderdeel A
-float floatdelen(int getal1, int getal2) {
-  float uitkomst = (float)(getal1) / (float)(getal2);
+float floatdelen(int a, int b) {
+  float uitkomst = (float)(a) / (float)(b);
   return uitkomst;
 }
 //Onderdeel B
 void setup() {
-int getal1 = 2;
-int getal2 = 5;
-println(floatdelen(getal1, getal2));
+  int a = 2;
+  int b = 5;
+  println(floatdelen(a, b));
 }
