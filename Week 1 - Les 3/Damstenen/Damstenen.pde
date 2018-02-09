@@ -13,18 +13,22 @@ class Damsteen {
   }
 }
 
+Damsteen[] Dam = 
+  { 
+  new Damsteen (#ABCDEF, 0, 0, 50), 
+  new Damsteen (#ABCDEF, 50, 50, 50), 
+  new Damsteen (#FEDCBA, 0, 50, 50), 
+  new Damsteen (#FEDCBA, 50, 0, 50)
+};
+
+//Dam[0] = new Damsteen(255, 0, 0, 50);
+//Dam[1] = new Damsteen(255, 50, 50, 50);
+//Dam[2] = new Damsteen(0, 0, 50, 50);
+//Dam[3] = new Damsteen(0, 50, 0, 50);
+
 void setup() {
   size(500, 500);
   ellipseMode(CORNER);
-  Damsteen[] Dam = new Damsteen[4]; 
-
-  for (int i=0; i<Dam.length/2; i++) {
-    Dam[i] = new Damsteen(255, i*50, i*50, 50);
-  }
-
-  for (int i=Dam.length/2; i<Dam.length; i++) {
-    Dam[i] = new Damsteen(0, 50+i*50, 50+i*50, 50);
-  }
 
   for (int i =0; i < Dam.length; i++) {
     Dam[i].teken();
